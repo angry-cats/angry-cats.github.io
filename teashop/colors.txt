@@ -1,0 +1,6 @@
+#3b3c36 black
+#59a299	turkis
+#6a5544	brown
+
+#e6e6e6	gray
+#ffffff white

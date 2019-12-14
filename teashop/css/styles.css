@@ -1,0 +1,126 @@
+body {
+	color: #3b3c36;
+	font: 12px Tahoma, sans-serif;
+	border-top: 5px solid #7e7e7e;
+	margin: 0;
+	width: 100%;
+}
+input[type="text"] {
+	background-color: #f3f3f3;
+	border: 1px solid #e7e7e7;
+	height: 30px;
+	color: #b2b2b2;
+	padding: 0 10px;
+	vertical-align: top;
+}
+button {
+	color: #fff;
+	background-color: #59a299;
+	border: none;
+	height: 32px;
+	font-family: 'Oswald', sans-serif;
+}
+p {
+	margin: 20px 0;
+}
+
+.wrapper {
+	max-width: 960px;
+	margin: auto;
+	position: relative;
+	text-align: center;
+}
+.sticky-wrapper {
+	position: relative;
+    z-index: 999;
+}
+#header {
+	padding: 20px 0;
+	width: 100%;
+	float:left;
+}
+#search {
+	margin: 30 0;
+	float: right;
+}
+.top-menu {
+    list-style: none;
+    padding: 0;
+    margin: 30 0;
+    z-index: 9;
+    display: block;
+    float: right;
+}
+.top-menu a {
+	text-decoration: none !important;
+	color: #3b3c36 !important;
+}
+
+.top-menu a:hover {
+	text-decoration: none !important;
+	color: #6a5544 !important;
+}
+
+.top-menu li {
+	display: inline-block;
+	padding: 10px 10px;
+	margin: 0;
+	list-style-position: inside;
+}
+.top-menu li.active {
+	border-bottom: 5px solid #59a299;
+}
+#banner {
+	background: url("../img/banner.jpg") no-repeat scroll;
+	background-size: cover;
+	width: 100%;
+	float: left;
+	height: 614px;
+}
+#banner-text {
+	color: #ffffff;
+	vertical-align: middle;
+	margin: 170px 0;	
+}
+#banner-text-big {
+	font: 64px Helvetica, sans-serif;
+	vertical-align: middle;
+	margin: 10px 0;	
+}
+#banner-text-small {
+	font: 50px Helvetica, sans-serif;
+	vertical-align: middle;	
+}
+.content {
+	margin: 40px 0; 
+	width: 100%;
+	float: left;
+}
+.heading hr {
+	border-bottom: 5px solid #59a299;
+	width: 100px;
+}
+.product-table {
+	width: 100%;
+	margin: 50px 0;
+}
+.product-table  td{
+	padding: 10px;
+	text-align: center;
+}
+.product-img img {
+	width: 250px;
+	height: 250px;
+}
+.product-title {
+	color: #3b3c36;
+	font: 20px Helvetica, sans-serif;
+	text-align: center;
+	padding: 10px 0;
+}
+.product-price {
+	color: #6a5544;
+	font: 16px Helvetica, sans-serif;
+	text-align: center;
+	padding: 10px 0;
+}
